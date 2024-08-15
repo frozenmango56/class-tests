@@ -1,1 +1,8 @@
 <html>
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+</head>
+<body>
+    <p> this is a paragraph</p>
+</body>
+</html>
