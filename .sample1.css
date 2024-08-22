@@ -1,0 +1,26 @@
+.exleft{
+    text-align: left;
+}
+.exright{
+    text-align: right;
+}
+.excenter{
+    text-align: center;
+}
+.exjustify{
+    text-align: justify;
+}
+.exindent{
+    text-indent: 200px;
+}
+.exshadow{
+    text-shadow:20px 20px 1px green;
+}
+#title{
+    font-size: 120px;
+    color:red;
+    text-shadow: 5px -8px 3px gold;
+}
+.exwordspacing{
+    word-spacing: -20px;
+}

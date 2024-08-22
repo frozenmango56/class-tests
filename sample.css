@@ -1,0 +1,16 @@
+.bg{
+    background-color: rgb(255,0,0);
+}
+.exopacity{
+    filter: opacity(.2);
+    filter: grayscale(1.0)
+}
+.aloha1{
+    filter: opacity(.2)
+}
+.aloha2{
+    filter: opacity(.5)
+}
+.aloha3{
+    filter: opacity(.8)
+}
