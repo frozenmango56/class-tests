@@ -1,16 +1,36 @@
 .bg{
     background-color: rgb(255,0,0);
 }
-.exopacity{
-    filter: opacity(.2);
-    filter: grayscale(1.0)
-}
 .aloha1{
-    filter: opacity(.2)
+    filter: opacity(.2);
 }
 .aloha2{
-    filter: opacity(.5)
+    filter: opacity(.5);
 }
 .aloha3{
-    filter: opacity(.8)
+    filter: opacity(.8);
+}
+.imggrayscale{
+    filter: grayscale(1.0);
+}
+.imgblur{
+    filter: blur(10px);
+}
+.imgcontrast{
+    filter: contrast(.6);
+}
+.imgopacity{
+    filter: opacity(.3);
+}
+.imginvert{
+    filter: invert(1.0);
+}
+.imghuerotate{
+    filter: hue-rotate(160deg);
+}
+.imgbrightness{
+    filter:brightness(.7)
+}
+.imgdropshadow{
+    filter: drop-shadow(100px rgb(255,0,255));
 }
