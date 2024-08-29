@@ -29,8 +29,8 @@
     filter: hue-rotate(160deg);
 }
 .imgbrightness{
-    filter:brightness(.7)
+    filter:brightness(1.0)
 }
 .imgdropshadow{
-    filter: drop-shadow(100px rgb(255,0,255));
+    filter: drop-shadow(9px 9px 10px rgb(33, 212, 17));
 }
