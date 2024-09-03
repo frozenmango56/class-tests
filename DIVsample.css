@@ -1,7 +1,27 @@
-div{
+.DIVscroll1{
+    width: 100vw;
+    height: 50vh;
+    background-color:rgb(180, 14, 14);
+    overflow: scroll;
+    font-size: 250px;
+    border-color:aqua;
+    border-width: 10px 5px 10px 5px;
+    border-style: dashed;
+}
+.DIVscroll2{
+    width: 100vw;
+    height: 50vh;
+    background-color:rgb(51, 8, 167);
+    overflow: scroll;
+    font-size: 250px;
+    color: rgb(255,255,255)
+}
+.coupon{
     width: 50vw;
     height: 50vh;
-    background-color:blueviolet;
-    overflow: hidden;
-    font-size: 25px;
+    border-width: 10px 10px 10px 10px;
+    border-top-style: dashed;
+    border-top-color:crimson;
+    border-right-style: inset;
+    border-right-color: orange;
 }
