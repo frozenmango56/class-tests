@@ -1,0 +1,19 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+#one{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    background-color:blueviolet;
+}
+#two{
+    position: absolute; /*you need two more things X and Y*/
+    top: 100px; /*X axis*/
+    left: 100px; /*Y axis*/
+    background-color:blue;
+}
+#three{
+    background-color:rgb(12, 244, 224);
+}
