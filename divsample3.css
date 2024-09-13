@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color:brown;
+    width: 100px;
+    height: 100px;
+    color:white;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+}
