@@ -1,0 +1,30 @@
+
+#star{
+    width: 600px;
+    height: 600px;
+    background-color:red;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 100% 100%, 49% 100%, 18% 100%, 0 100%, 0 34%,
+     0 0);
+    shape-outside: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 100% 100%, 49% 100%, 18% 100%, 0 100%, 0 34%, 0 0);
+    float: left;
+}
+#circle{
+    height: 400px;
+    width: 400px;
+    background-color:black;
+    position: relative;
+    margin-top: 100px;
+    clip-path: circle(50% at 100% 50%);
+    shape-outside: circle(50% at 100% 50%) border-box;
+    float: right;
+}
+#paragraph{
+    margin-right:0px
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}

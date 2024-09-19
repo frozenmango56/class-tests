@@ -1,9 +1,0 @@
-div{
-    height: 200px;
-    width: 200px;
-    position: relative;
-    top: 30%;
-    left: 0%;
-    background-color: aqua;
-    clip-path: circle(50% at 50% 50%)
-}
