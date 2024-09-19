@@ -2,13 +2,11 @@
     height: 500px;
     width: 500px;
     position: relative;
-    top: 30%;
-    left: 5%;
+    margin-top: 100px;
     background-color: aqua;
     float: left;
     clip-path: circle(50% at 50% 50%);
-    shape-outside: circle(50% at 50% 50%);
-    margin-right: 30px;
+    shape-outside: circle(50% at 50% 50%) border-box;
 }
 p{
     
