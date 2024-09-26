@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <style>
+            /*nth child practice*/
+            p:nth-child(4n+2){
+            color:red;
+            }
+            .letter_L{
+                color:blue;
+            }
+            button{
+                height:100px;
+                width: 100px;
+                background-color:black;
+            }
+            button:focus:nth-child(even){
+                background-color:green;
+            }
+            button:focus:nth-child(odd){
+                background-color:rgb(196, 5, 5);
+            }
+            .group2{
+                position:relative;
+                top: 100px;
+                left: -300px;
+            }
+        </style>
+    </head>
+    <body>
+        <span>H</span><span>E</span><span class="letter_L">L</span><span class="letter_L">L</span><span>O</span>
+        <div>
+            <p>one</p>
+            <p>two</p>
+            <p>three</p>
+            <p>four</p>
+            <p>five</p>
+            <p>six</p>
+            <p>seven</p>
+            <p>eight</p>
+            <p>nine</p>
+        </div>
+        <button class=group1></button>
+        <button class=group1></button>
+        <button class=group1></button>
+        <button class=group2></button>
+        <button class=group2></button>
+        <button class=group2></button>
+    </body>
+</html>
