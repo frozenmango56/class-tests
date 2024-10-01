@@ -1,6 +1,37 @@
 #roof{
-    height:100px;
-    width: 100px;
+    height:200px;
+    width: 200px;
     background-color: blue;
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
+}
+#walls{
+    height:200px;
+    width: 200px;
+    background-color: yellow;
+}
+#window1{
+    height: 60px;
+    width: 70px;
+    background-color:cyan;
+    position: relative;
+    top:20px;
+    left:10px;
+}
+#window2{
+    height: 60px;
+    width: 70px;
+    background-color:cyan;
+    position: relative;
+    top:-40px;
+    left:-10px;
+    float: right;
+}
+#door{
+    height: 100px;
+    width: 70px;
+    background-color:brown;
+    position: relative;
+    top:40px;
+    left: 65px;
+    
 }
